@@ -11,7 +11,9 @@
                "unstable-flonum-lib"))
 
 (define build-deps '("plot" ; used for an example
+                     "math-doc" ; referred to
                      "racket-doc"))
+
 (define update-implies '("unstable-flonum-lib"))
 
 (define pkg-desc "Experimental libraries for flonum computations (documentation)")
